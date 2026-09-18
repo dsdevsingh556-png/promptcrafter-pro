@@ -1,0 +1,16 @@
+{
+  "name": "promptcrafter-pro",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Premium local-first intent compiler and AI execution specification studio",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "npm test",
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
